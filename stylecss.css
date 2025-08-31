@@ -5,15 +5,134 @@ h1 {
 
 }
 
-.half-widhth {
+section {
+    height: 500px;
+}
 
-    width: 40%;
+.top-part {
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+}
 
-    float: left;
+.mid-part {
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+.lastest-part {
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+.last-part {
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+p {
+    text-align: justify;
+    margin-right: 0%;
 
 }
 
-.half-widhth img {
-    width: 10%;
+body {
+
+    font-family: "Barlow Condensed", sans-serif;
+    text-align: justify;
+    margin: 0%;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding: left 5%;
+
+}
+
+
+.half-width img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, blue, purple);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.mid-part {
+    margin-bottom: 400px;
+}
+
+h2 {
+    font-weight: bold;
+    font: size 45px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 27%;
+    padding: 5px;
+    margin-left: 5%;
+    margin-bottom: 150px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+.bld {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.just {
+    text-align: center;
+    color: white;
+}
+
+.block {
+
+    height: 150px;
+
+
+    background-color: rgb(255, 0, 191);
+
+    border-radius: 10px;
+    padding: 20px 100px 40px 100px;
+    width: 500px;
+    /* অবশ্যই width দিতে হবে padding: 30px 100px 40px 100px;*/
+    margin: 0 auto;
+    /* এটি horizontal center করবে */
+
+    /* ভিতরের লেখা center হবে */
+    margin-bottom: 150px;
+
+}
+
+#copy {
+    text-align: center;
 
 }
